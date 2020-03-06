@@ -52,9 +52,9 @@ I appreciate those smart experts who devote their time to writing and reviewing 
 so that I don't have to.
 It's just a very small tool for linting Rust codes for better team collaboration
 only for the projects which don't need to use `unsafe` and see reliability as their top priority.
-*Please don't use this to attack other projects*
+*Please don't use this to attack other projects and enrage other open-source contributors*
 
-**The codebase of this linter is very small and feel free to create `yourlinter` :)**.
+**The codebase of this linter is very small and feel free to fork or clone and create `yourlinter` :)**.
 
 ## Development
 The Rust grammar sits in:
@@ -66,3 +66,5 @@ And there's an online playground to view the grammar structure:
 Just write out some Rust codes you want to lint and it will give you the grammar structure.
 
 For further details, the source code should be self-explained.
+
+**Pull Requests are welcomed!**
