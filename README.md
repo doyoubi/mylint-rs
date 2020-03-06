@@ -33,7 +33,7 @@ $ make install
 $ mylint -p <src directory>
 
 # List all rules
-# mytlint -l
+# mylint -l
 
 # Suppress some rules listed as above in the first column (case-insensitive).
 # mylint -s expect -s unwrap
@@ -68,3 +68,6 @@ Just write out some Rust codes you want to lint and it will give you the grammar
 For further details, the source code should be self-explained.
 
 **Pull Requests are welcomed!**
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
