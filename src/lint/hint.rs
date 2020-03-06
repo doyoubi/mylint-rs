@@ -24,12 +24,13 @@ opt.map(|a| a.do_something())?
 // Good: tranform it to result
 opt.map(|a| a.do_something()).ok_or_else(|| some_err)?
 
-// Consider use and_then or or_else for nested Option and Result.
+// Consider using `and_then` or `or_else` for nested Option and Result.
 opt.and_then(|a| func_produce_option(a)) // result is a single layer Option
 "#;
 
 pub const INDEX_EXPR_HINT: &str = r#"
-// For a instance arr of Vec or String,
+// Here variable `arr` can be array, Vec, String, and so on.
+
 // Bad
 if arr.len() >= 3 {
     let v = arr[2];

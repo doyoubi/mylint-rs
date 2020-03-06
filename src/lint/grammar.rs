@@ -1,6 +1,6 @@
 // The Rust grammar sits in
 // https://github.com/tree-sitter/tree-sitter-rust/blob/master/grammar.js
-// We can use the playground to view the node kine:
+// We can use the playground to view the node kind:
 // https://tree-sitter.github.io/tree-sitter/playground
 
 pub type NodeKind = &'static str;

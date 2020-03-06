@@ -1,6 +1,6 @@
 build:
 	git submodule update --init
-	cargo build
+	cargo build --release
 
 install:
 	ln -F -s ${PWD}/target/release/mylint /usr/local/bin/mylint
@@ -21,9 +21,9 @@ lint:
 	find src -name "*.rs" | xargs rustup run stable rustfmt
 	cargo clippy
 
-release:
+debug:
 	git submodule update --init
-	cargo build --release
+	cargo build
 
 .PHONY: build test lint release install install_debug
 
