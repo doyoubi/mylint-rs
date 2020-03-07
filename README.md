@@ -1,4 +1,5 @@
 # mylint-rs
+![Rust](https://github.com/doyoubi/mylint-rs/workflows/Rust/badge.svg)
 
 Tiny homemade linter for Rust based on [tree-sitter](https://github.com/tree-sitter).
 
